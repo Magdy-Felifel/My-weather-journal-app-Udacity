@@ -1,0 +1,131 @@
+body {
+  background-image: URL("https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: white;
+}
+
+#app {
+  height: 100vh;
+  color: rgb(3, 3, 73);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.holder {
+  margin-left: 10px;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  width: 40%;
+  height: 180px;
+  border-radius: 5px;
+  float: right;
+}
+
+#entryHolder {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: darkred;
+  font-weight: 800;
+}
+
+#date {
+  margin-bottom: 5px;
+}
+
+#temp {
+  margin-bottom: 5px;
+}
+
+#content {
+  margin: auto;
+}
+
+.headline {
+  background-color: transparent;
+  margin-top: 5px;
+  width: inherit;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #f0d43a;
+}
+.title {
+  color: yellow;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.zip {
+  margin-top: 50px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  background: #5abeda;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 200px;
+  height: 70px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 2px 4px 5px #444;
+  justify-content: left;
+  margin-top: 10px;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #5abeda;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
